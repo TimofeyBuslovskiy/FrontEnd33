@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+
+
+#kub{
+
+height: 300px;
+background-color: palevioletred;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.k{
+width:800px;
+height: 100px; 
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.kCh{
+    width: 400px;
+    height: 50px;
+    background-color: black;
+
+}
+.menu{
+    height: 20px;
+    background-color: grey;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+}
+.nav{
+    background-color: red;
+    width:500px;
+    height:200px;
+}
+
+.nav1{
+    background-color: orange;
+    width:500px;
+    height:200px;
+}
+
+
+.nav2{
+    background-color: aqua;
+    width:500px;
+    height:200px;
+}
+
+.nav3{
+    background-color: yellow;
+    width:500px;
+    height:200px;  
+}
+
+.kk{
+    height: 20px;
+    background-color: grey;
+    text-align: center;
+}
+
+#cont{
+    display: flex;
+
+}
+
+.sec1{
+    width: 640px;
+    height:400px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.sec2{
+    width: 640px;
+    height:400px;
+    background-color: aqua; 
+    display: flex;
+    align-items: end;
+}
+
+.sec3{
+    width: 640px;
+    height:400px;
+    background-color: blue; 
+}
+
+.p1{
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.p2{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.p3{
+    width: 200px;
+    height:200px;
+    background-color: yellow;
+}
+
+
+.p11{
+width: 213px;
+height: 300px;
+background-color: red;
+
+}
+
+.p22{
+    width: 213px;
+    height: 300px;
+    background-color:yellow;
+    display: flex;
+    align-items: end;
+    
+    }
+
+    .p33{
+        width: 213px;
+        height: 300px;
+        background-color:orange;
+        
+        }  
+
+.pp1{
+width: 106px;
+height: 200px;
+background-color: orange;
+}
+
+.pp2{
+    width: 106px;
+height: 60px;
+background-color: red;
+}
+
+
+    
+
+
+
+.sec3{
+    display: flex;
+
+}
+
+.f1{
+    width: 213px;
+    height: 150px;
+    background-color:aqua; 
+   
+}
+
+.f2{
+    width: 213px;
+    height: 150px;
+    background-color:yellow; 
+}
+
+.f3{
+    width: 213px;
+    height: 150px;
+    background-color:orange;
+}
+
+.ff{
+    align-self: self-end;
+}
+
+.ff1{
+    align-self: center;
+}
+
+
