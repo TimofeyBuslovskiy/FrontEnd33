@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.anim1{
+background-color: aqua;
+width: 100px;
+height: 100px;
+transition: 1s;
+}
+
+
+.anim1:hover{
+background-color: blue;
+
+}
+
+h1{
+text-align: center;
+margin: 0 auto;
+width: 150px;
+
+}
+
+#anim2{
+background-color: chartreuse;
+width: 0;
+padding: 50px;
+transition: 1s;
+}
+
+
+#anim2:hover{
+
+    transform: translate(60px);
+}
+
+i>div{
+
+    animation:4s Scolors;
+}
+
+div[style]:hover{
+animation: 3s bcolors;
+
+}
+
+
+#zas{
+background-color: brown;
+padding: 50px;
+width: 0px;
+transition: 3s;
+
+}
+
+#zas:hover{
+transform: rotate(360deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes bcolors{
+
+from{
+background-color: black;
+color: red;
+transition: 3s;
+
+}
+
+to{
+background-color: red;
+color: black;
+transition: 3s;
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+@keyframes Scolors{
+0%{
+    background-color: black;
+     padding: 50px;
+    width: 0px; 
+
+}
+
+20%{background-color: darkblue;
+transform:translate(0px,50px);
+width: 0px; 
+
+}
+40%{
+background-color: blue;
+padding: 60px;
+width: 0px; 
+
+
+}
+
+60%{
+background-color: cyan;
+ padding: 55px;
+width: 0; 
+
+
+}
+
+70%{
+    background-color: blue;
+padding: 53px;
+width: 0px; 
+
+
+}
+
+80%{
+background-color: darkblue;
+padding: 50px; 
+width: 0px; 
+
+
+
+
+}
+
+100%{
+background-color: black;
+
+ padding: 50px;
+width: 0px; 
+transform: scale(1.0)
+}
+
+
+}
+
+
+
+</style>
+
+
+<body>
+
+<h1>1 завдання</h1>
+
+
+
+    <div class="anim1"></div>
+    <hr>
+    <h1>2 завдання</h1>
+    <div id="anim2"></div>
+    <hr>
+
+    <h1>3 завдання </h1>
+
+    <i>
+
+    <div></div>
+
+    </i>
+    <hr>
+    <h1 class="ww">4 завдання</h1>
+    
+        <div style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+    
+   <hr>
+   <h1>5 завдання</h1>
+   <div id="zas"></div>
+
+    
+    
+</body>
+</html>
