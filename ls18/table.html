@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+
+        *{
+            margin: 0;
+        }
+
+.nav{
+width: 100vw;
+height: 10vh;
+background-color: bisque;
+position: fixed;
+z-index: -1;
+border: 4px dotted green;
+border-radius: 5px;
+}
+
+.nav2 li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    font-size: 22px;
+    background-color: cornsilk;
+   border: 2px solid rosybrown;
+   border-radius: 10px;
+   padding: 10px;
+    
+
+}
+
+.f1{
+    position: fixed;
+    left: 400px;
+    top: 15px;
+}
+
+.f2{
+    position: fixed;
+    left: 700px;
+    top: 15px;
+}
+
+.f3{
+    position: fixed;
+    left: 900px;
+    top: 15px;
+    width: 150px;
+}
+
+.f4{
+    position: fixed;
+    left: 1100px;
+    top: 15px;
+}
+
+.f5{
+    position: fixed;
+    left: 1300px;
+    top: 15px;
+}
+
+.f6{
+    position: fixed;
+    left: 200px;
+    top: 15px;
+}
+
+.main{
+    width: 100vw;
+    height: 30vh;
+    background-color: aquamarine;
+    position: absolute;
+    top: 103px;
+    z-index: -1;
+}
+
+table{
+    position: absolute;
+    top: 100px;
+    border-collapse: collapse;
+    width: 100vw;
+    height: 29vh;
+}
+
+.date{
+    rotate: 90deg;
+    font-size: 24px;
+    font-weight: 600;
+    width: 15px;
+}
+
+table th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 1s;
+    font-size: 20px;
+}
+
+table th:hover{
+transform: scale(1.2);
+background-color: antiquewhite;
+}
+
+table td{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+    </style>
+    <div class="nav"></div>
+
+    <ul class="nav2">
+        <li class="f1"><a href="./table.html">Таблиці</a></li>
+        <li class="f2"><a href="./margin.html">Відступи</a></li>
+        <li class="f3"><a href="./tags.html">ЛІнійні та блокові теги</a> </li>
+        <li class="f4"><a href="./media.html">Медіа</a></li>
+        <!-- <li class="f5"><a href="./links.html">Гіперпосилання</a></li> -->
+        <li class="f6"><a href="./hw.html">Головна</a></li>
+    </ul>
+
+    <div class="main"></div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Час</th>
+                <th>Понеділок</th>
+                <th>Вівторок</th>
+                <th>Середа</th>
+                <th>Четвер</th>
+                <th>П'ятниця</th>
+                
+                <th >Дата</th>
+            </tr>
+        </thead>
+
+<tbody>
+
+    <tr>
+        <td>8:10</td>
+        <td>Математика</td>
+        <td>Література</td>
+        <td>Укр.мова</td>
+        <td>Історія України</td>
+        <td>Біологія</td>
+        
+        <td rowspan="4" class="date">21.12.2023</td>
+    </tr>
+    <tr>
+        <td>9:40</td>
+        <td>Захист України</td>
+        <td>Всесвітня Історія</td>
+        <td>Фізична Культура</td>
+        <td>Географія</td>
+        <td>Фізика</td>
+        
+        <!-- <td></td> -->
+    </tr>
+    <tr>
+        <td>11:20</td>
+        <td>Інформатика</td>
+        <td>Амтрономія</td>
+        <td>Математика</td>
+        <td>Анг. мова</td>
+        <td>Література</td>
+        
+        <!-- <td></td> -->
+    </tr>
+    <tr>
+        <td>13:00</td>
+        <td>Біологія</td>
+        <td>Математика</td>
+        <td>Історія України</td>
+        <td>Фізична культура</td>
+        <td>Творче Мистецтво</td>
+        
+        
+    </tr>
+    
+</tbody>
+
+<tfoot>
+    <tr>
+        <th colspan="7">Розклад занять у группі ТТ-2108</th>
+        <!-- <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        
+        <th></th> -->
+    </tr>
+</tfoot>
+    </table>
+</body>
+</html>
