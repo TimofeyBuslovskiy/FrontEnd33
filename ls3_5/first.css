@@ -1,0 +1,52 @@
+main{
+    font-size: 18px;
+}
+
+#q1{
+font-family: serif;
+font-size: 20px;
+color: firebrick;
+}
+
+.w1{
+    width: 100px;
+    height: 100px;
+    background-color:red ;
+    margin: 5px;
+}
+#r1{
+width: 100px;
+height: 100px;
+background-color:green ;
+margin: 5px;
+}
+
+.t5{
+    background-color: yellow;
+    padding: 50px;
+    width: 0px;
+    margin: 40px;
+
+}
+
+.t6{
+background-color:orange ;
+padding: 50px;
+width: 0px;
+margin: 60px;
+
+}
+
+
+.t7{
+background-color: gray;
+padding: 50px;
+width: 0px;
+margin: 80px;
+
+}
+
+.huy{
+background-color: brown;
+
+}
